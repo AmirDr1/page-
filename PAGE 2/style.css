@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+main{
+    margin: 30px auto;
+    width: 80%;
+
+}
+
+main>section{
+    float: left;
+    padding: 100px;
+}
+#rightside{
+    width: 33.33%;
+ text-align: center;
+    background-color: aqua;
+}
+#leftside{
+    width: 33.33%;
+
+    background-color: blue;
+    text-align: center;
+}
+#middle{
+    width: 33.33%;
+    background-color: blueviolet;
+    text-align: center
+}
