@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: vazirmatn fd;
+    direction: rtl;
+
+}
+main{
+    width: 80%;
+    margin: 10px auto;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    text-align: justify;
+}
+#aval{
+    width: 10%;
+}
+#dovom{
+    width: 10%;
+}
+#sevom{
+    width: 20%;
+}
+#chahar{
+    width: 10%;
+}
+#pang{
+    width: 10%;
+}
+#shish{
+    width: 40%;
+}
+tr:nth-child(even){
+    background-color: yellowgreen;
+    color: black;
+}
+.pageination{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   padding: 10px;
+
+}
+.pageination a{
+         
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+     text-decoration: none;
+     padding: 10px;
+
+}
+.pageination a:hover{
+    box-shadow:5px 5px 5px rgba(0, 0, 0,.4);
+    background-color: aqua;
+    border: none;
+    transition: 1s;
+}
+
